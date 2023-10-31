@@ -8,7 +8,7 @@
  * Return: 1 or 0
  */
 
-int check_cycle(listint_t *list);
+int check_cycle(listint_t *list)
 {
 	listint_t *slow = list, *fast = list;
 
